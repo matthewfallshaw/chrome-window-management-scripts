@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/local/bin/hs -c "app_tabs.window_filter.new({Safari = { tab1 = {url_pattern = \"^https://drive%.google%.com/drive/u/0/\", andFocus = true} }}):getWindows()" > /dev/null
