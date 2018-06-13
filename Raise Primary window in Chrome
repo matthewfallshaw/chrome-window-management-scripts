@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/usr/local/bin/hs -c 'chrome_tabs:focusWindow( { title=" - matthew.fallshaw@gmail.com %- Gmail$", url="^https://mail.google.com/mail/u/0/%?" })' > /dev/null

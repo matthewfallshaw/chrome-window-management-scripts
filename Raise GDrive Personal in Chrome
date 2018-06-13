@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/usr/local/bin/hs -c 'chrome_tabs:focusTab( { title=" - Google Drive$", url="^https://drive.google.com/drive/[^u]" })' > /dev/null
