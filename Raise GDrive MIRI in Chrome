@@ -1,3 +1,3 @@
-#!/bin/sh
+#!/bin/bash
 
-/usr/local/bin/hs -c 'chrome_tabs:focusTab( { title=" - Google Drive$", url="^https://drive.google.com/drive/u/2/" })' > /dev/null
+echo -n '{"focus":{ "title":"* - Google Drive", "url":"https://drive.google.com/drive/u/2/*"} }' > /tmp/chrometabsfinder.pipe
