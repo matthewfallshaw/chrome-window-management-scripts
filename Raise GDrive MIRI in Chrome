@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo -n '{"focus":{ "title":"* - Google Drive", "url":"https://drive.google.com/drive/u/2/*"} }' > /tmp/chrometabsfinder.pipe
+~/bin/chrome-client '{"focus":{ "profile":"miri", "title":"* - Google Drive", "url":"https://drive.google.com/drive/*"} }'

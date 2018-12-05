@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo -n '{"focus":{ "title":"* - matthew.fallshaw@gmail.com - Gmail", "url":"https://mail.google.com/mail/u/0/*"} }' > /tmp/chrometabsfinder.pipe
+~/bin/chrome-client '{ "focus":{ "profile":"default", "title":"* - matthew.fallshaw@gmail.com - Gmail", "url":"https://mail.google.com/mail/"} }'
