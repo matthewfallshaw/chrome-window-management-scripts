@@ -13,7 +13,7 @@ try
 	set oldDelims to AppleScript's text item delimiters
 	set AppleScript's text item delimiters to (ASCII character 10)
 	set URL_list to theURLs as text
-	set the clipboard to resub(URL_list, "chrome-extension://[a-z]+/suspended.html#(?:ttl=[A-Za-z0-9%-]+&)?(?:pos=[0-9]+&)?uri=", "")
+	set the clipboard to resub(URL_list, "chrome-extension://[a-z]+/suspended.html#(?:ttl=[^&]+&)?(?:pos=[0-9]+&)?uri=", "")
 	set AppleScript's text item delimiters to oldDelims
 on error
 	set AppleScript's text item delimiters to oldDelims
