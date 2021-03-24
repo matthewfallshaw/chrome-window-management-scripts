@@ -1,2 +1,2 @@
 #!/bin/sh
-/usr/local/bin/hs -c "safari_docs_window_filter:getWindows()[1]:focus()" > /dev/null
+hs -c "safari_docs_window_filter:getWindows()[1]:focus()" > /dev/null

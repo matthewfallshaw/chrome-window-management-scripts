@@ -1,0 +1,3 @@
+#!/bin/bash
+
+~/bin/chrome-client '{ "focus":{ "profile":"bellroy", "title":"* - matt@bellroy.com - Bellroy Mail", "url":"https://mail.google.com/mail/*"} }'
