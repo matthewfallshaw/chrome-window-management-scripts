@@ -1,3 +1,4 @@
+#@osa-lang:AppleScript
 on raiseChromeTab(target_url_start, target_title_end, target_tab_name, target_url_exclude)
 	set {the_window, the_tab, the_window_index, the_tab_index} to findTab(target_url_start, target_title_end, target_tab_name, target_url_exclude)
 	if the_window is not false then

@@ -1,3 +1,4 @@
+#@osa-lang:AppleScript
 -- restoreChromeWindow(target_url_start, target_title_end, target_tab_name, target_position, target_size, target_url_exclude)
 
 tell (load script POSIX file "/Users/matt/code/chrome-window-management-scripts/Raise in Chrome Library.scpt")

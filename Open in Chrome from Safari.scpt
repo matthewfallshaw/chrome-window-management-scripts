@@ -1,3 +1,4 @@
+#@osa-lang:AppleScript
 -- from http://www.tuaw.com/2011/03/14/use-applescript-to-open-current-safari-url-in-google-chrome/
 -- install FastScripts http://www.red-sweater.com/fastscripts/ and place this AppleScript in the Scripts applications folder for Google Chrome.
 -- For me that was ~/Library/Scripts/Applications/Safari

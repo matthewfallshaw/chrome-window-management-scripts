@@ -1,3 +1,4 @@
+#@osa-lang:AppleScript
 on stringJoin(theList, theDelimiter)
 	set prevTIDs to AppleScript's text item delimiters
 	try
@@ -47,4 +48,3 @@ zoophie7shahpuXuurai
 puts raw_text.gsub(Regexp.new(regex.chomp), replace.chomp)
 ahz3Yaazah2see"
 end reReplace
-

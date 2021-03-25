@@ -1,3 +1,4 @@
+#@osa-lang:AppleScript
 set theURLs to {}
 
 tell application "Safari"
