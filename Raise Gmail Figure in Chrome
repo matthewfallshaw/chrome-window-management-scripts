@@ -1,0 +1,3 @@
+#!/bin/bash
+
+~/bin/chrome-client '{ "focus":{ "profile":"Figure", "title":"* - matthew@figure.video - Figure Mail", "url":"https://mail.google.com/mail/*"} }'

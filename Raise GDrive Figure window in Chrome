@@ -1,0 +1,3 @@
+#!/bin/bash
+
+~/bin/chrome-client '{"focusWindowContaining":{ "profile":"figure", "title":"* - Google Drive", "url":"https://drive.google.com/drive/*"} }'
